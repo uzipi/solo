@@ -317,7 +317,7 @@
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <skipTests>false</skipTests>
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
 
@@ -462,7 +462,7 @@
 
         </plugins>
 
-        <finalName>solo</finalName>
+        <finalName>blog</finalName>
     </build>
 
     <profiles>

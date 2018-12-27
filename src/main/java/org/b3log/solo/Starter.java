@@ -177,6 +177,7 @@ public final class Starter {
 
         try {
             if (!commandLine.hasOption("no")) {
+                logger.log(Level.INFO, "Boot success, open browser ...");
                 Desktop.getDesktop().browse(new URI(serverScheme + "://" + serverHost + ":" + serverPort + contextPath));
             }
         } catch (final Throwable e) {

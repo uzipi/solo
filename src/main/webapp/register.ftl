@@ -95,7 +95,9 @@
                 data: JSON.stringify(requestJSONObject),
                 success: function(result, textStatus) {
                     $("#tip").text(result.msg);
-                    if (!result.sc) {
+                    if (result.sc) {
+                        alert("注册成功");
+                    } else {
                         return;
                     }
                     setTimeout(function() {
