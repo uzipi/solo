@@ -462,7 +462,7 @@
 
         </plugins>
 
-        <finalName>blog</finalName>
+        <finalName>ROOT</finalName>
     </build>
 
     <profiles>
